@@ -1,0 +1,102 @@
+html,
+body {
+  margin: 0px;
+  background-color: rgb(250, 250, 250);
+}
+
+header {
+  text-align: left;
+  background-color: #7ea4ca;
+  color: #070807;
+  padding: 10px 0;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#json-input {
+  flex-direction: column;
+  width: 50%;
+  padding: 10px 10px 0 10px;
+  border-right: 2px solid black;
+}
+
+#interfaces-output {
+  float: right;
+  width: 50%;
+  padding: 10px 10px 0 10px;
+}
+
+#json-error {
+  color: #b40404;
+  font-family: monospace;
+  font-size: 16px;
+}
+
+#json {
+  margin: 0;
+  font-family: monospace;
+  font-size: 16px;
+}
+
+textarea {
+  border: none;
+  float: left;
+  width: 100%;
+  height: 75vh;
+  background-color: rgb(250, 250, 250);
+  resize: none;
+  font-family: monospace;
+  font-size: 16px;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+#btn-transform {
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  color: white;
+  margin: 20px;
+  background-color: darkcyan;
+  border: 0px;
+  font-size: 22px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+#btn-delete {
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  color: white;
+  margin: 20px;
+  background-color: #b40404;
+  border: 0px;
+  font-size: 22px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.output {
+  height: 85vh;
+}
+
+.buttons {
+  display: flex;
+  height: 70px;
+  justify-content: center;
+}
